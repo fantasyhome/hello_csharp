@@ -3,11 +3,12 @@
 class Program
 {
     
-    static void Main()
+    static async Task Main()
     {
         // ClassCopyDemo.Run();
         // ArrayDemo.Run();
         // CovarianceDemo.Run();
-        AsyncBreakfast.Program.Cook();
+        // AsyncDemo.Run();
+        await AsyncDemo.Run2();
     }
 }
